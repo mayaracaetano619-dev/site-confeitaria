@@ -85,5 +85,26 @@ p{
     border: 4px solid #CE8F6C;
     border-radius: 15px;
     width: 30%;
-    box-shadow:6px 8px 10px rgba(0, 0, 0, 0.5);
+    box-shadow:14px 11px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.menu-cardapio-item p {
+    font-size: 20px;
+}
+
+footer {
+    background-color:#CE8F6C;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
