@@ -13,8 +13,8 @@
 }
 
 .div-card p {
-    font-size: 18px;
-    text-align: justify;
+    font-size: 20px;
+    text-align: left;
     width: auto;
     flex: 1;
 }
@@ -53,6 +53,29 @@
     background-color: white;
     border-radius: 10px;
     width: 300px;
-    padding: 10px;
+    padding: 20px;
     z-index: 2;
 }
+
+.fechar {
+    text-align: right;
+}
+
+.button-reserva {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: transparent;
+    border: 0px;
+    color: #CE8F6C;
+    font-weight: bold;
+}
+.button-reserva:hover {
+    text-decoration: underline;
+}
+
+.centralizado {
+    text-align: center;
+}
+
+
