@@ -10,7 +10,7 @@
     margin-bottom: 30px;
 }
 
-.sobre-conteudo {
+.conteudo {
     border: 4px solid #CE8F6C;
     border-radius: 15px;
     width: 70%;
@@ -20,7 +20,7 @@
     box-shadow: 14px 11px 10px rgba(0, 0, 0, 0.5);
 }
 
-.sobre-conteudo p {
+.conteudo p {
     font-size: 20px;
     line-height: 1.6;
     text-align: justify;
