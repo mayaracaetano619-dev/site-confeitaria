@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../css/contato.css">
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <header>
+        <div class="div-logo">
+            <img class="logotipo" src="../img/logo.png" alt="Logotipo da Confeitaria">
+        </div>
+        <div class="div-menu">
+            <h1>
+                Confeitaria Sempre Doce
+            </h1>
+            <br>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../index.html">Início</a>
+                    </li>
+                    <li>
+                        <a href="../pages/sobre.html">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="../pages/cardapio.html">Cardápio</a>
+                    </li>
+                    <li>
+                        <a href="../pages/contato.html">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="div-logo"></div>
+    </header>
+
+    <h1>Formulário do Cliente</h1>
+
+    <form>
+        <div class="container">
+
+            <fieldset>
+                <legend>Dados do Cliente</legend>
+
+                <div>
+                    <label>Nome Completo:</label>
+                    <input type="text">
+                </div>
+
+                <div>
+                    <label>Email:</label>
+                    <input type="email">
+                </div>
+
+                <div>
+                    <label>Telefone:</label>
+                    <input type="tel">
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Dados do Endereço</legend>
+
+                <div>
+                    <label>CEP:</label>
+                    <input onkeydown="buscar(event)" id="cep" type="text" placeholder="Digite e Aperte Enter para Buscar">
+                </div>
+
+                <div>
+                    <label>Logradouro:</label>
+                    <input id="logradouro" type="text">
+                </div>
+
+                <div>
+                    <label>Número:</label>
+                    <input type="number">
+                </div>
+
+                <div>
+                    <label>Bairro:</label>
+                    <input id="bairro" type="text">
+                </div>
+
+                <div>
+                    <label>Cidade:</label>
+                    <input id="cidade" type="text">
+                </div>
+
+                <div>
+                    <label>Estado:</label>
+                    <input id="estado" type="text">
+                </div>
+
+                <div>
+                    <label>UF:</label>
+                    <input id="uf" type="text">
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Informações do Pedido</legend>
+
+                <div>
+                    <label>Item:</label>
+                    <input type="text">
+                </div>
+
+                <div>
+                    <label>Quantidade:</label>
+                    <input type="number">
+                </div>
+
+                <div>
+                    <label>Total:</label>
+                    <input type="text">
+                </div>
+
+                <div>
+                    <label>Forma de Pagamento:</label>
+                    <input type="text">
+                </div>
+
+            </fieldset>
+        </div>
+
+        <div class="container botoes">
+            <button type="submit" onclick="cadastrar(event)">Salvar Informações</button>
+            <button type="reset">Limpar Formulário</button>
+        </div>
+
+    </form>
+    
+    <footer>
+        &copy; 2026 Confeitaria Sempre Doce.
+        Todos os direito reservados
+    </footer>
+</body>
+<script src="../js/contato.js"></script>
+</html>
